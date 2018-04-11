@@ -1,0 +1,6 @@
+mvn install:install-file -Dfile=D:\dev-tools\ojdbc7.jar -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0 -Dpackaging=jar
+
+spring.datasource.url=jdbc:oracle:thin:@//DBPP.PREPROD.HOMECREDIT.ID:1521/IDPPHD.HOMECREDIT.ID
+spring.datasource.username=APP_ACCOUNT
+spring.datasource.password=appaccount1preprodid
+spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
